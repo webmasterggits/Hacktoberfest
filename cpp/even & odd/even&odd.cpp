@@ -1,14 +1,14 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-	int a;
-	cout<<"Enter a number:- ";
-	cin>>a;
-	
-	if(a%2==0){
-		cout<<"number is Even";
-	}else{
-		cout<<"Number is odd";
-	}
+
+int main()
+{
+	int n;
+
+	cout << "Enter an integer: ";
+	cin >> n;
+
+	(n % 2 == 0) ? cout << n << " is even." : cout << n << " is odd.";
+
 	return 0;
 }
